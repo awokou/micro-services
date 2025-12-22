@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0687a8-3128-4608-88d8-4cfa0ce80708" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/DepartmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/DepartmentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +50,16 @@
     &quot;Spring Boot.StudentServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/development/micro-services/config-server/src/main/resources/configurations&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/development/micro-services/discovery-service&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\development\micro-services\discovery-service" />
       <recent name="D:\development\micro-services\config-server\src\main\resources\configurations" />
       <recent name="D:\development\micro-services" />
       <recent name="D:\development\micro-services\student-service" />
       <recent name="D:\development\micro-services\school-service\src\main\java\com\service\school\service\controller" />
-      <recent name="D:\development\micro-services\school-service\src\main\java\com\service\school\service" />
     </key>
   </component>
   <component name="SharedIndexes">
