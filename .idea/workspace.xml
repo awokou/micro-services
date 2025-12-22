@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0687a8-3128-4608-88d8-4cfa0ce80708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/api-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/api-gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/departments-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/departments-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/employee-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/employee-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/school-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/school-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/student-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/student-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/client/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/client/EmployeeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/employee.sql" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/employee.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/school.sql" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/resources/school.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/student.sql" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/resources/student.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
