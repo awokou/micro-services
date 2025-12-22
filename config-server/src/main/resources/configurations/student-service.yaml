@@ -1,3 +1,6 @@
+server:
+  port: 8081
+
 eureka:
   instance:
     hostname: localhost
@@ -5,13 +8,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
-
-server:
-  port: 8081
-
 spring:
   application:
-    name: students
+    name: student-service
 
   datasource:
     driver-class-name: org.postgresql.Driver

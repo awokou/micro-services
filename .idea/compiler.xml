@@ -11,7 +11,7 @@
         <module name="config-server" />
         <module name="discovery-service" />
       </profile>
-      <profile name="Annotation profile for school-service" enabled="true">
+      <profile name="Annotation profile for microservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -19,8 +19,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="student-service" />
-        <module name="school-service" />
         <module name="department-service" />
+        <module name="school-service" />
         <module name="employee-service" />
       </profile>
     </annotationProcessing>
