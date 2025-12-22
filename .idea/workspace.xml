@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e0687a8-3128-4608-88d8-4cfa0ce80708" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/api-gateway.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/school-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/student-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/service/employee/service/EmployeeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/service/employee/service/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/service/employee/service/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/service/employee/service/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/service/employee/service/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee-service/src/test/java/com/service/employee/service/EmployeeServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/client/StudentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/controller/SchoolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/FullSchoolResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/entity/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/repository/SchoolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/micro-services.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/SchoolServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/SchoolServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="37CUkLDRwpvtXuQNObhoK9wnm8u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DiscoveryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StudentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/development/micro-services&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\development\micro-services" />
+      <recent name="D:\development\micro-services\student-service" />
+      <recent name="D:\development\micro-services\school-service\src\main\java\com\service\school\service\controller" />
+      <recent name="D:\development\micro-services\school-service\src\main\java\com\service\school\service" />
+      <recent name="D:\development\micro-services\school-service\src\main\java\com\service\school\service\dto" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e0687a8-3128-4608-88d8-4cfa0ce80708" name="Changes" comment="" />
+      <created>1766406690648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766406690648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
