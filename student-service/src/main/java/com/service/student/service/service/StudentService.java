@@ -2,26 +2,33 @@ package com.service.student.service.service;
 
 import com.service.student.service.entity.Student;
 import com.service.student.service.repository.StudentRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class StudentService {
 
-    private final StudentRepository repository;
+    private final StudentRepository studentRepository;
 
-    public void saveStudent(Student student) {
-        repository.save(student);
+    public StudentService(StudentRepository studentRepository) {
+        this.studentRepository = studentRepository;
+    }
+
+    public Student saveStudent(Student student) {
+        return studentRepository.save(student);
     }
 
     public List<Student> findAllStudents() {
-        return repository.findAll();
+        return studentRepository.findAll();
     }
 
     public List<Student> findAllStudentsBySchool(Integer schoolId) {
-        return repository.findAllBySchoolId(schoolId);
+        return studentRepository.findAllBySchoolId(schoolId);
     }
+
+    public void deleteStudent(Integer id) {
+        studentRepository.deleteById(id);
+    }
+
 }

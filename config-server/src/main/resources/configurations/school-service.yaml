@@ -8,20 +8,25 @@ eureka:
 
 server:
   port: 8082
+
 spring:
   application:
     name: schools
+
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/schools
     username: postgres
     password: postgres
+
   jpa:
     hibernate:
-      ddl-auto: update
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
-application:
-  config:
-    students-url: http://localhost:8222/api/v1/students
+students:
+  service:
+     url: http://localhost:8081/api/v1/students
