@@ -5,38 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0687a8-3128-4608-88d8-4cfa0ce80708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/departments-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/employee-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/client/EmployeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-service/src/main/java/com/service/department/service/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/employee.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/school.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/student.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/api-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/api-gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/school-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/school-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/student-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/student-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/SchoolServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/SchoolServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/client/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/client/StudentClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/controller/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/controller/SchoolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/repository/SchoolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/repository/SchoolRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/StudentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/StudentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
