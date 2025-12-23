@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 900
 
 eureka:
   instance:
@@ -16,17 +16,24 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true
+          enabled: true  # Utilise Eureka pour découvrir les microservices
       routes:
         - id: student-service
-          uri: http://localhost:8081
+          uri: lb://STUDENT-SERVICE
           predicates:
             - Path=/api/v1/students/**
         - id: school-service
-          uri: http://localhost:8082
+          uri: lb://SCHOOL-SERVICE
           predicates:
             - Path=/api/v1/schools/**
-        - id: employee-service
-          uri: http://localhost:8083
-          predicates:
-            - Path=/api/v1/employees/**
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    urls:
+      - name: Student Service
+        url: /api/v1/students/v3/api-docs
+      - name: School Service
+        url: /api/v1/schools/v3/api-docs
+      - name: Employee Service
+        url: /api/v1/employees/v3/api-docs

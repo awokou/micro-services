@@ -7,10 +7,9 @@
         <module>config-server</module>
         <module>api-gateway</module>
         <module>discovery-service</module>
-        <module>department-service</module>
-        <module>employee-service</module>
         <module>school-service</module>
         <module>student-service</module>
+        <module>product-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
