@@ -1,12 +1,12 @@
 server:
-  port: 8070
+  port: ${SERVER_PORT:8070}
 
 eureka:
   instance:
     hostname: localhost
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
 
 spring:
   application:
@@ -29,3 +29,13 @@ spring:
 students:
   service:
      url: http://localhost:8090/api/v1/students
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
