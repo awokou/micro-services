@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8070
 
 eureka:
   instance:
@@ -28,4 +28,4 @@ spring:
 
 students:
   service:
-     url: http://localhost:8081/api/v1/students
+     url: http://localhost:8222/api/v1/students
