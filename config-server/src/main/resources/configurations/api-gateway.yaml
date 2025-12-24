@@ -32,5 +32,3 @@ springdoc:
         url: /api/v1/students/v3/api-docs
       - name: School Service
         url: /api/v1/schools/v3/api-docs
-      - name: Employee Service
-        url: /api/v1/employees/v3/api-docs

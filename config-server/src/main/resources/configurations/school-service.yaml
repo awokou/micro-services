@@ -28,4 +28,4 @@ spring:
 
 students:
   service:
-     url: http://localhost:8222/api/v1/students
+     url: http://localhost:8090/api/v1/students

@@ -1,5 +1,5 @@
 server:
-  port: 900
+  port: 9000
 
 eureka:
   instance:
@@ -22,11 +22,9 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-    open-in-view: false
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
 
   kafka:
     bootstrap-servers: localhost:9092
