@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b60dce-d064-4298-8107-8fd3f6dc2da0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/SchoolDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/dto/StudentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/service/api/gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/service/api/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/service/config/server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/service/config/server/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/com/service/discovery/service/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/service/discovery/service/DiscoveryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/SchoolServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/SchoolServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/controller/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/controller/SchoolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/SchoolResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/SchoolResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/StudentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/impl/SchoolServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/StudentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/StudentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/src/main/java/com/service/student/service/service/impl/StudentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

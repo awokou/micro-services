@@ -2,6 +2,7 @@ package com.service.student.service.service.impl;
 
 import com.service.student.service.dto.StudentDto;
 import com.service.student.service.entity.Student;
+import com.service.student.service.mapper.StudentMapper;
 import com.service.student.service.repository.StudentRepository;
 import com.service.student.service.service.StudentService;
 import org.springframework.stereotype.Service;
@@ -12,9 +13,11 @@ import java.util.List;
 public class StudentServiceImpl implements StudentService {
 
     private final StudentRepository studentRepository;
+    private final StudentMapper studentMapper;
 
-    public StudentServiceImpl(StudentRepository studentRepository) {
+    public StudentServiceImpl(StudentRepository studentRepository, StudentMapper studentMapper) {
         this.studentRepository = studentRepository;
+        this.studentMapper = studentMapper;
     }
 
     @Override
@@ -27,6 +30,13 @@ public class StudentServiceImpl implements StudentService {
         studentEntity.setSchoolId(student.getSchoolId());
 
         return studentRepository.save(studentEntity);
+    }
+
+    @Override
+    public StudentDto saveStudentV2(StudentDto studentDto) {
+        Student student = studentMapper.toEntity(studentDto);
+        Student saved = studentRepository.save(student);
+        return studentMapper.toDto(saved);
     }
 
     @Override

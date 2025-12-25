@@ -7,6 +7,7 @@ import java.util.List;
 
 public interface StudentService {
     Student saveStudent(StudentDto student);
+    StudentDto saveStudentV2(StudentDto studentDto);
     List<StudentDto> findAllStudents();
     List<StudentDto> findAllStudentsBySchool(Integer schoolId);
     void deleteStudent(Integer id);
