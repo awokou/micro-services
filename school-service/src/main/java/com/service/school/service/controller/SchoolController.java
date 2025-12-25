@@ -1,6 +1,6 @@
 package com.service.school.service.controller;
 
-import com.service.school.service.dto.FullSchoolResponse;
+import com.service.school.service.dto.SchoolResponse;
 import com.service.school.service.entity.School;
 import com.service.school.service.service.SchoolService;
 import org.springframework.http.ResponseEntity;
@@ -28,8 +28,8 @@ public class SchoolController {
         return ResponseEntity.ok(service.findAllSchools());
     }
 
-    @GetMapping("/with-students/{school-id}")
-    public ResponseEntity<FullSchoolResponse> findAllSchools(@PathVariable("school-id") Integer schoolId) {
+    @GetMapping("/{schoolId}")
+    public ResponseEntity<SchoolResponse> findAllSchools(@PathVariable("schoolId") Integer schoolId) {
         return ResponseEntity.ok(service.findSchoolsWithStudents(schoolId));
     }
 }

@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b60dce-d064-4298-8107-8fd3f6dc2da0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/StudentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/api-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/api-gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/product-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/product-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/school-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/school-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/student-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/student-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/client/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/client/StudentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/controller/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/controller/SchoolController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/FullSchoolResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/dto/SchoolResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/school-service/src/main/java/com/service/school/service/service/SchoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,19 +82,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\development\micro-services\product-service" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="config-server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="config-server" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

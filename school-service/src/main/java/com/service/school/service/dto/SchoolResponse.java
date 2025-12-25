@@ -1,6 +1,5 @@
 package com.service.school.service.dto;
 
-import com.service.school.service.entity.Student;
 import lombok.*;
 
 import java.util.List;
@@ -8,10 +7,9 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-public class FullSchoolResponse {
+public class SchoolResponse {
 
     private String name;
     private String email;
-    List<Student> students;
+    List<StudentDto> students;
 }

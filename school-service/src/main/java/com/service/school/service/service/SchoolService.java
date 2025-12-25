@@ -1,8 +1,10 @@
 package com.service.school.service.service;
 
 import com.service.school.service.client.StudentClient;
-import com.service.school.service.dto.FullSchoolResponse;
+import com.service.school.service.dto.SchoolResponse;
+import com.service.school.service.dto.StudentDto;
 import com.service.school.service.entity.School;
+import com.service.school.service.entity.Student;
 import com.service.school.service.repository.SchoolRepository;
 import org.springframework.stereotype.Service;
 
@@ -27,17 +29,16 @@ public class SchoolService {
         return schoolRepository.findAll();
     }
 
-    public FullSchoolResponse findSchoolsWithStudents(Integer schoolId) {
-        var school = schoolRepository.findById(schoolId)
-                .orElse(School.builder()
-                        .name("NOT_FOUND")
-                        .email("NOT_FOUND")
-                        .build());
-        var students = studentClient.findAllStudentsBySchool(schoolId);
-        return FullSchoolResponse.builder()
-                .name(school.getName())
-                .email(school.getEmail())
-                .students(students)
-                .build();
+    public SchoolResponse findSchoolsWithStudents(Integer schoolId) {
+        School school = schoolRepository.findById(schoolId)
+                .orElseThrow(() -> new RuntimeException("School not found"));
+
+        List<StudentDto> students = studentClient.findAllStudentsBySchool(schoolId);
+
+        return new SchoolResponse(
+                school.getName(),
+                school.getEmail(),
+                students
+        );
     }
 }
