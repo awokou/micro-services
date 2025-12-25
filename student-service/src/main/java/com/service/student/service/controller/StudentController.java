@@ -18,8 +18,8 @@ public class StudentController {
     }
 
     @PostMapping
-    public Student save(@RequestBody Student student) {
-        return studentService.saveStudent(student);
+    public ResponseEntity<Student> save(@RequestBody Student student) {
+        return ResponseEntity.ok(studentService.saveStudent(student));
     }
 
     @GetMapping
