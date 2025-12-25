@@ -1,5 +1,6 @@
 package com.service.school.service.controller;
 
+import com.service.school.service.dto.SchoolDto;
 import com.service.school.service.dto.SchoolResponse;
 import com.service.school.service.entity.School;
 import com.service.school.service.service.SchoolService;
@@ -20,13 +21,13 @@ public class SchoolController {
     }
 
     @PostMapping
-    public ResponseEntity<School> save(@Valid @RequestBody School school) {
+    public ResponseEntity<School> save(@Valid @RequestBody SchoolDto school) {
 
         return ResponseEntity.ok(service.saveSchool(school));
     }
 
     @GetMapping
-    public ResponseEntity<List<School>> findAllSchools() {
+    public ResponseEntity<List<SchoolDto>> findAllSchools() {
         return ResponseEntity.ok(service.findAllSchools());
     }
 

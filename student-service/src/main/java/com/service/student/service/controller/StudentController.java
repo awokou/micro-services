@@ -1,5 +1,6 @@
 package com.service.student.service.controller;
 
+import com.service.student.service.dto.StudentDto;
 import com.service.student.service.entity.Student;
 import com.service.student.service.service.StudentService;
 import org.springframework.http.ResponseEntity;
@@ -18,17 +19,17 @@ public class StudentController {
     }
 
     @PostMapping
-    public ResponseEntity<Student> save(@RequestBody Student student) {
+    public ResponseEntity<Student> save(@RequestBody StudentDto student) {
         return ResponseEntity.ok(studentService.saveStudent(student));
     }
 
     @GetMapping
-    public ResponseEntity<List<Student>> findAllStudents() {
+    public ResponseEntity<List<StudentDto>> findAllStudents() {
         return ResponseEntity.ok(studentService.findAllStudents());
     }
 
-    @GetMapping("/school/{school-id}")
-    public ResponseEntity<List<Student>> findAllStudents(@PathVariable("school-id") Integer schoolId) {
+    @GetMapping("/school/{schoolId}")
+    public ResponseEntity<List<StudentDto>> findAllStudents(@PathVariable("schoolId") Integer schoolId) {
         return ResponseEntity.ok(studentService.findAllStudentsBySchool(schoolId));
     }
 }

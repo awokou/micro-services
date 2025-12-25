@@ -9,8 +9,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class SchoolServiceApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(SchoolServiceApplication.class, args);
 	}
-
 }
