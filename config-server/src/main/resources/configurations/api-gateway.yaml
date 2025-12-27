@@ -1,31 +1,43 @@
 server:
-  port: ${SERVER_PORT:8222}
+  port: 8222
+
+spring:
+  application:
+    name: api-gateway
 
 eureka:
   instance:
     hostname: localhost
   client:
     service-url:
-      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
 
 spring:
-  application:
-    name: api-gateway
-
   cloud:
     gateway:
+      # Discovery locator activé pour détecter automatiquement les services
       discovery:
         locator:
-          enabled: true  # Utilise Eureka pour découvrir les microservices
+          enabled: true
+          lower-case-service-id: true
+          prefix: /api/v1  # Ajouter un préfixe pour toutes les routes découvertes
+      # Routes manuelles avec RewritePath pour correspondre au chemin du microservice
       routes:
         - id: student-service
           uri: lb://STUDENT-SERVICE
           predicates:
             - Path=/api/v1/students/**
+          filters:
+            - RewritePath=/api/v1/students/(?<segment>.*), /students/${segment}
+
         - id: school-service
           uri: lb://SCHOOL-SERVICE
           predicates:
             - Path=/api/v1/schools/**
+          filters:
+            - RewritePath=/api/v1/schools/(?<segment>.*), /schools/${segment}
 
 springdoc:
   swagger-ui:
